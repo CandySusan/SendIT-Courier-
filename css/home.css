@@ -78,6 +78,7 @@ float: right;
 
 .login{
     float: left;
+    padding-bottom: 5px;
 }
 
 
@@ -150,3 +151,9 @@ input .password{
              background: #da8900; 
              cursor: pointer; 
             }
+
+
+            #msg{
+                color: red;
+            }
+        

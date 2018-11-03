@@ -17,11 +17,13 @@
             <div id="loginPanel">
                 <div id="nliPanel">
                     <div class="login">Login:</div>
-                    <div class="smallLink" id="register"><a href="#register">Register</div>
-                    <div><input class="email" type="text" maxlength="80" placeholder="email address" spellcheck="false"
-                            id="email" utocomplete="off" /></div>
-                    <div><input class="password" type="password" maxlength="24" placeholder="password" spellcheck="false"
-                            autocomplete="off" /></div>
+                    <div class="smallLink" id="register"><a href="#register">Register</a></div>
+                    <div class="email"><input type="text" maxlength="80" placeholder="email address" id="email"
+                            spellcheck="false" autocomplete="off" /></div>
+                    <div> <span id="msg">
+
+                        </span></div>
+                    <div><input type="password" maxlength="24" placeholder="password" spellcheck="false" autocomplete="off" /></div>
                     <div class="button" onclick="check_input()">
                         <left><button>Login</button>
                     </div>
@@ -55,7 +57,7 @@
 
                 <label>Email:</label>
                 <input id="rg_em" type="text" maxlength="50" class="input tb-email" />
-
+                <span id="alert"></span>
                 <label>Password:</label>
                 <input id="rg_p1" type="password" maxlength="20" class="input tb-password1" />
 
@@ -74,10 +76,23 @@
                 </select>
             </fieldset>
             <div class="btn-container">
-                <button type="button" id="btnRegister" class="btn-register">Register</button>
+                <button type="button" id="btnRegister" class="btn-register" onclick="myFunction()">Register</button>
             </div>
         </div>
     </div>
+
+
+    <form method="POST" action="/javascript/validate-password/" onsubmit="return (checkForm(this) && false);">
+        <fieldset>
+            <legend>Change Password</legend>
+            <label>Username</label><span><input type="text" name="username"></span>
+            <div style="float: right; width: 50%; font-size: 0.9em;">Passwords must contain at least six characters,
+                including uppercase, lowercase letters and numbers.</div>
+            <label>Password</label><span><input type="password" name="pwd1"></span>
+            <label>Confirm Password</label><span><input type="password" name="pwd2"></span>
+            <span><input type="submit"></span>
+        </fieldset>
+    </form>
 
 </body>
 
