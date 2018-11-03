@@ -96,12 +96,14 @@ input .password{
       clear: left; 
       margin-top: 40px; 
       width: 100%; 
+      padding-left: 40px;
+      padding-right: 55px;
     }
 	
 .parcelPanelBottom { 
     clear:left;
     width:624px;
-    height:76px; 
+    height:76px;
 }
 #btnAddParcel { 
     float:left;
@@ -139,6 +141,7 @@ input .password{
              color: #00779e; 
              font-size: 12px; 
              font-weight: bold; 
+             padding-left: 75px;
         
             }
         .quoteEntry .row .labelTo {
@@ -151,36 +154,20 @@ input .password{
              width: 192px; 
              border: 4px solid #88D0E8; 
              border-radius: 2px; 
+             
             }	
             
-            .quoteEntry .row .Location select {
+        .quoteEntry .row .Location select {
                 width: 100%; 
                 border: 1px solid #B9BCBE; 
                 font-size: 10px; 
                 height: 34px; 
                 line-height: 38px; 
                 padding: 0 4px; 
-               }
-            .quoteEntry .row .Location1 {
-                float: left; 
-                margin-top: 5px; 
-                width: 192px; 
-                border: 4px solid #88D0E8; 
-                border-radius: 2px; 
-               }	
-
-               .quoteEntry .row .Location1 select {
-                width: 100%; 
-                border: 1px solid #B9BCBE; 
-                font-size: 10px; 
-                height: 34px; 
-                line-height: 38px; 
-                padding: 0 4px; 
+               
                }
 
-            
-
-                .btnDupParcelRow { 
+        .btnDupParcelRow { 
                     margin: 9px 0 0 0; 
                     width: 36px; 
                     height: 36px; 
@@ -308,6 +295,86 @@ input .password{
         text-align: center; 
         font-weight: bold; 
     }
+    #footer { 
+        position: relative; 
+        width: 960px; 
+        margin: 0 auto; 
+        background-color: #4793ba; 
+        min-height: 170px; 
+        padding: 8px; 
+        box-sizing: border-box; 
+        -moz-box-sizing: border-box;
+        padding-left: 50px; 
+        padding-right: 50px;
+    }
+    #footer .social-facebook {
+         position: absolute; 
+         top: -13px; 
+         right: 130px; 
+         width: 82px; 
+         height: 52px; 
+         
+         cursor: pointer; }
+    #footer .social-twitter { 
+        position: absolute; 
+        top: -13px; 
+        right: 50px; 
+        width: 82px; 
+        height: 82px; 
+        
+        cursor: pointer; 
+    }
+    #footer a { 
+        color: #fff; 
+        text-decoration: none; 
+    }
+    #footer .col a { 
+        font-size: 16px;
+     }
+        #footer a:hover { 
+            text-decoration: underline; 
+        }
+    #footer .base-text {
+         clear: left; 
+         font-size: 12px!important; 
+         color: #fff; 
+         text-align: right;
+         padding-top:8px; 
+        }
+    #footer .col { 
+        width: auto;
+        float: left;
+        padding-right:60px; 
+    }
+        #footer .col h3 { 
+            font-size: 12px; 
+            text-decoration: underline; 
+            color: #fff; 
+            font-size: 16px; 
+            margin: 0; 
+            padding: 0 0 5px 0; 
+        }
+        #footer .col ul { 
+            margin: 0; 
+            padding: 0; 
+            list-style: none; 
+        }
+            #footer .col ul > li { 
+                margin: 0; 
+                padding: 0; 
+            }
 
 
 
+    .parcelPanelBottom{
+        padding-left: 200px;
+    }
+    .follow{
+        text-align: right;
+        color: white;
+        padding-left: 15px;
+    }
+
+   .btnAddParcelRow{
+       border-radius: 50%;
+   }
