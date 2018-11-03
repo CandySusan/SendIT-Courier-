@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+p.courier{
+    float: left;
+    padding-left: 100px;
+    font-display: fixed;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: maroon;
+
+}
+#nliPanel{
+    float: right;
+    padding-top: 15px;
+}
+#loginPanel{
+    float: right;
+    padding-bottom: 50px;
+    padding-right: 100px;
+   
+}
+.container{
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 30px;
+}
+.smallLink {
+float: right;
+
+}
+
+.button{
+    border-radius: 100%;
+    background-color: rgb(119, 117, 117);
+    border: none;
+    color: lightblue;
+    width: 26px;
+    height: 26px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.login{
+    float: left;
+    padding-bottom: 5px;
+}
+
+
+
+input .password{
+    padding-right: 5px;
+    float: right;
+}
+#msg{
+    color: red;
+}
+
+#quoteArea { 
+    min-height:280px; 
+}
+#pContainer {
+     position: relative;
+      clear: left; 
+      margin-top: 40px; 
+      width: 100%; 
+    }
+	
+.parcelPanelBottom { 
+    clear:left;
+    width:624px;
+    height:76px; 
+}
+#btnAddParcel { 
+    float:left;
+    position:relative;
+    top:20px;
+    left:10px;
+    width:101px;
+    height:35px;
+    cursor:pointer;
+    color: #4CAF50;
+ }
+#btnGetQuotes { float: right; 
+    position: relative; 
+    top: 20px; 
+     width: 183px; 
+     height: 47px; 
+     cursor: pointer; 
+     color: #4CAF50;
+    }
+
+    .quoteEntry { 
+        padding-top: 32px; 
+    }
+
+    .quoteEntry .row {
+         margin-top: 9px; 
+         clear: left; 
+         height: 50px; 
+        }
+        .quoteEntry .row .labelFrom,.quoteEntry .row .labelTo {
+             float: left; 
+             margin-left: 20px; 
+             width: 46px; 
+             line-height: 52px; 
+             color: #00779e; 
+             font-size: 12px; 
+             font-weight: bold; 
+        
+            }
+        .quoteEntry .row .labelTo {
+             margin-left: 86px;
+             display: inline; 
+            }
+        .quoteEntry .row .Location {
+             float: left; 
+             margin-top: 5px; 
+             width: 192px; 
+             border: 4px solid #88D0E8; 
+             border-radius: 2px; 
+            }	
+            
+            .quoteEntry .row .Location select {
+                width: 100%; 
+                border: 1px solid #B9BCBE; 
+                font-size: 10px; 
+                height: 34px; 
+                line-height: 38px; 
+                padding: 0 4px; 
+               }
+            .quoteEntry .row .Location1 {
+                float: left; 
+                margin-top: 5px; 
+                width: 192px; 
+                border: 4px solid #88D0E8; 
+                border-radius: 2px; 
+               }	
+
+               .quoteEntry .row .Location1 select {
+                width: 100%; 
+                border: 1px solid #B9BCBE; 
+                font-size: 10px; 
+                height: 34px; 
+                line-height: 38px; 
+                padding: 0 4px; 
+               }
+
+            
+
+                .btnDupParcelRow { 
+                    margin: 9px 0 0 0; 
+                    width: 36px; 
+                    height: 36px; 
+                    border-radius: 50%; 
+                    -webkit-border-radius: 50%; 
+                    -moz-border-radius: 50%; 
+                    background: #029dd0; 
+                    color: #fff; 
+                    line-height: 38px; 
+                    text-align: center; 
+                    font-weight: bold; 
+                }
+
+	.btnAddParcelRow { 
+        border: none; 
+        width: 29px; 
+        height: 30px; 
+        margin: 12px 0 0 12px; 
+        cursor: pointer; 
+        
+    }
+	.btnRemoveParcelRow { 
+        border: none; 
+        width: 29px; 
+        height: 30px; 
+        background: black;
+        margin: 12px 0 0 12px; 
+        cursor: pointer; 
+    }
+	button:active, button:focus { 
+        outline: none; 
+        border: none; 
+    }
+	button:disabled { 
+        opacity: 0.4; 
+        cursor: default; 
+    }
+
+
+    .parcelRow { 
+        clear: left; 
+        height: 50px; 
+        background: #9FDAED; 
+        margin-bottom: 1px; 
+        transform: scale(1,1); 
+    }
+		.parcelRow.hide { 
+            opacity: 0; 
+            transform: scale(0.8,0.2); 
+        }
+		.parcelRow .cell { 
+            float: left; 
+        }
+		.parcelRow .index { 
+            width: 40px; 
+        }
+		.parcelRow .cell.btn { 
+            width: 100px; 
+        }
+	.indexBubble {
+         margin: 9px 0 0 9px; 
+         width: 36px; 
+         height: 36px;
+         font-size:20px; 
+         line-height: 30px;  
+         border-radius: 50%; 
+         -webkit-border-radius: 50%; 
+         -moz-border-radius: 50%; 
+         background: #029dd0; 
+         color: #fff;
+         text-align: center; 
+         font-weight: bold; 
+        }
+
+    .parcelRow .label {
+         width: 100px; 
+        }
+	.parcelRow .ctrl { 
+        width: 180px; 
+    }
+	.parcelRow input {
+         box-sizing: border-box; 
+        }
+	.parcelRow .label > div { 
+        text-align: right; 
+        padding-right: 4px; 
+        color: #00779E; 
+        font-weight: bold; 
+        font-size: 12px; 
+        line-height: 52px; 
+    }
+	.parcelRow .value { 
+        width: 72px; 
+        padding: 7px 0 0 0;
+     }
+	.parcelRow .times { 
+        width: 35px; 
+        text-align: center; 
+        color: #00779E; 
+        font-weight: bold; 
+        font-size: 12px; 
+        line-height: 50px; 
+    }
+	.parcelRow .input {
+         width: 100%; 
+         padding: 6px;
+        text-align: center; 
+        padding-top: 2px; 
+        border: 4px solid #b1e0ef; 
+        font-size: 16px; 
+    }
+        .parcelRow .input:focus {
+             border-color: #00779E; 
+        }
+	.btnDupParcelRow { 
+        margin: 9px 0 0 0; 
+        width: 36px; 
+        height: 36px; 
+        border-radius: 50%; 
+        -webkit-border-radius: 50%; 
+        -moz-border-radius: 50%; 
+        background: #029dd0; 
+        color: #fff; 
+        line-height: 38px; 
+        text-align: center; 
+        font-weight: bold; 
+    }
+
+
+
