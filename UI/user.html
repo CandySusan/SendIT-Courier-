@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/user.css">
+    <script src="../js/user.js"></script>
+    <title>UserPage</title>
+</head>
+
+<body>
+    <header>
+        <p class="courier"> <big>SendIT Courier</big></p>
+        <nav class="loginPanel">
+            <div id="loginPanel">
+                <div id="nliPanel">
+                    <div class="login">Login:</div>
+
+                    <div class="smallLink" id="register"><a href="#">Register</a></div>
+                    <div class="email"><input type="text" maxlength="80" placeholder="email address" id="email"
+                            spellcheck="false" autocomplete="off" /></div>
+                    <div> <span id="msg">
+
+                        </span></div>
+                    <div><input type="password" maxlength="24" placeholder="password" spellcheck="false" autocomplete="off" /></div>
+                    <div class="button" onclick="check_input()">
+                        <left><button>Login</button>
+                    </div>
+                    </left>
+                    <div>Forgotten Password?</div>
+
+                </div>
+            </div>
+            </div>
+        </nav>
+
+
+
+        <div class="container">
+            <ul class="topnav">
+                <li><a class="active" href="#home">Quote</a></li>
+                <li><a href="#admin">Admin</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="right"><a href="#user Profile">User Profile</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <div id="quoteArea">
+
+        <div class="quoteEntry">
+            <div class="row">
+                <div class="labelFrom">From:</div>
+                <div class="Location"><select id="ddFromLocation">
+                        <option value="144">Kamokya</option>
+                        <option value="224">Ntinda</option>
+                        <option value="136">Entabbe</option>
+                        <option value="054">Kololo</option>
+                        <option disabled="disabled" value="016">----------------</option>
+                        <option value="157">Namuwongo</option>
+                    </select>
+                </div>
+                <div class="labelTo">To:</div>
+                <div class="Location">
+                    <select id="ddToLocation">
+                        <option value="144">Kamokya shs.12000</option>
+                        <option value="224">Ntinda shs.15000</option>
+                        <option value="136">Entabbe shs.20000</option>
+                        <option value="054">Kololo shs.25000</option>
+                        <option disabled="disabled" value="016">----------------</option>
+                        <option value="157">Namuwongo shs.30000</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div id="pContainer">
+            <div class="parcelRows nosel">
+                <div class="parcelRow activeRow animfast">
+                    <div class="cell index">
+                        <div class="indexBubble">1</div>
+                    </div>
+                    <div class="cell label">
+                        <div>Weight (kg)</div>
+                    </div>
+                    <div class="cell value weight">
+                        <input type="text" maxlength="3" class="input box anim" placeholder="kg" value="" /></div>
+                    <div class="cell label">
+                        <div>Size (cm)</div>
+                    </div>
+                    <div class="cell value length">
+                        <input type="text" maxlength="3" class="input box anim" placeholder="length" value="" /></div>
+                    <div class="cell times">x</div>
+                    <div class="cell value height"><input type="text" maxlength="3" class="input box anim" placeholder="height"
+                            value="" /></div>
+                    <div class="cell times">x</div>
+                    <div class="cell value width"><input type="text" maxlength="3" class="input box anim" placeholder="width"
+                            value="" /></div>
+                    <div class="cell ctrl"><button type="button" class="btnAddParcelRow">+</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="parcelPanelBottom">
+        <button type="button" id="btnAddParcel" class="btn">Add Parcel</button>
+        <button type="button" id="btnGetQuotes" class="btn">Get Quote</button>
+    </div>
+    <input type="hidden" id="hfHASH" />
+    </div>
+
+
+    <div id="footer">
+        <a href="#" target="_blank">
+            <div class="social-facebook"></div>
+        </a>
+        <a href="#" target="_blank">
+            <div class="social-twitter"></div>
+        </a>
+        <div class="col">
+            <h3>About Us</h3>
+            <ul>
+                <li><a href="#">Quote</a></li>
+                <li><a href="#">Admin</a></li>
+                <li><a href="#">Contact </a></li>
+                <li><a href="#">Site Map</a></li>
+                <li><a href="#" target="_blank">User Profile</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Parcel Delivery</h3>
+            <ul>
+                <li><a href="#">SendIt Courier</a></li>
+                <li><a href="#">SendIt Courier Kenya</a></li>
+                <li><a href="#">Couriers</a></li>
+                <li><a href="#">Courier to Dubai</a></li>
+                <li><a href="#">Send a Parcel Internationally</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Countries</h3>
+            <ul>
+                <li><a href="#">Courier to Kenya</a></li>
+                <li><a href="#">Courier to Tanzania</a></li>
+                <li><a href="#">Courier to Congo</a></li>
+                <li><a href="#">Courier to Rwanda</a></li>
+                <li><a href="#">Courier to Dubai</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Resources</h3>
+            <ul>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Pallet Delivery</a></li>
+                <li><a href="#" rel="nofollow">Prohibited items</a></li>
+                <li><a href="#" rel="nofollow">Tracking</a></li>
+                <li><a href="#" rel="nofollow" target="_blank">Reviews</a></li>
+            </ul>
+        </div>
+
+
+
+        <body>
+
+        </body>
+
+</html>
