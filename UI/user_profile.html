@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/user_profile.css">
+    <script src="../js/user_profile.js"></script>
+    <title>User Profile</title>
+</head>
+
+<body>
+    <header>
+        <p class="courier"> <big>SendIT Courier</big></p>
+        <nav class="loginPanel">
+            <div id="loginPanel">
+                <div id="nliPanel">
+                    <div class="login"><b>Logged In</b></div>
+                    <!-- <div class="smallLink" id="register"><a href="#home">Register</a></div>
+                    <div class="email"><input type="text" maxlength="80" placeholder="email address" id="email"
+                            spellcheck="false" autocomplete="off" /></div>
+                    <div> <span id="msg">
+
+                        </span></div>
+                    <div><input type="password" maxlength="24" placeholder="password" spellcheck="false" autocomplete="off" /></div> -->
+                    <div class="button">
+                        <button><a href="../UI/home.html">LogOut</a></button>
+
+
+                        <button><a href="../UI/user_profile.html">MyOrders</a></button>
+
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <ul class="topnav">
+            <li><a class="active" href="../UI/home.html">User Profile</a></li>
+            <li><a href="../UI/home.html">Quote</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#admin">Admin</a></li>
+            <li class="right"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    </header>
+
+    <h1>
+        <center>
+
+            <b> My Orders</b></center>
+    </h1>
+
+    <div class="content">
+        <table>
+            <tr>
+                <td><b>
+                        Order Number</b>
+                </td>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        <input type="button" value="Order Details" onclick="ViewOrder('Kamokya','Ntinda',15000)" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        <input type="button" value="Order Details" onclick="ViewOrder('Entebbe','Namuwongo',20000)" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        <input type="button" value="Order Details" onclick="ViewOrder('Ntinda','Namuwongo',25000)" />
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+        </td>
+        <td>
+            <table id="DeliveryOrderl">
+                <thead>
+                    <tr>
+                        <td><b>
+                                PickUp Location</b>
+                        </td>
+                        <td><b>
+                                Destination</b>
+                        </td>
+                        <td><b>
+                                Price</b>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody id="DeilveryOrderBody">
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" align="right" id="order_total">
+
+                        </td>
+                    </tr>
+                </tfoot>
+    </div>
+    </table>
+    </td>
+    </tr>
+    </table>
+
+
+
+
+
+    <div id="footer">
+
+        <div class="col">
+            <h3>About Us</h3>
+            <ul>
+                <li><a href="#">Quote</a></li>
+                <li><a href="#">Admin</a></li>
+                <li><a href="#">Contact </a></li>
+                <li><a href="#">Site Map</a></li>
+                <li><a href="#" target="_blank">User Profile</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Parcel Delivery</h3>
+            <ul>
+                <li><a href="#">SendIt Courier</a></li>
+                <li><a href="#">SendIt Courier Kenya</a></li>
+                <li><a href="#">Couriers</a></li>
+                <li><a href="#">Courier to Dubai</a></li>
+                <li><a href="#">Send a Parcel Internationally</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Countries</h3>
+            <ul>
+                <li><a href="#">Courier to Kenya</a></li>
+                <li><a href="#">Courier to Tanzania</a></li>
+                <li><a href="#">Courier to Congo</a></li>
+                <li><a href="#">Courier to Rwanda</a></li>
+                <li><a href="#">Courier to Dubai</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Resources</h3>
+            <ul>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Pallet Delivery</a></li>
+                <li><a href="#" rel="nofollow">Prohibited items</a></li>
+                <li><a href="#" rel="nofollow">Tracking</a></li>
+                <li><a href="#" rel="nofollow" target="_blank">Reviews</a></li>
+            </ul>
+        </div>
+
+        <a href="#" target="_blank">
+            <p class="follow">follow us on:</p>Facebook
+            <div class="social-facebook"></div><br>
+        </a>
+        <a href="#" target="_blank">Twitter
+            <div class="social-twitter"></div>
+        </a>
+
+
+
+</body>
+
+</html>
