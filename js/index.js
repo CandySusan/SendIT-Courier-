@@ -1,4 +1,3 @@
-
 function check_input() {
     var input = document.getElementById("email");
     if (input.value == "") {
@@ -14,5 +13,3 @@ function check_input() {
     }
 
 }
-
-
