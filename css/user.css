@@ -115,7 +115,18 @@ input .password{
     cursor:pointer;
     color: #4CAF50;
  }
-#btnGetQuotes { float: right; 
+#btnCancelParcel { 
+    float: center;
+    position:relative;
+    top:20px;
+    left:10px;
+    width:101px;
+    height:35px;
+    cursor:pointer;
+    color: #4CAF50;
+ }
+#btnGetQuotes { 
+    float: right; 
     position: relative; 
     top: 20px; 
      width: 183px; 
@@ -247,6 +258,7 @@ input .password{
         }
 	.parcelRow .ctrl { 
         width: 180px; 
+        border-radius: 50%;
     }
 	.parcelRow input {
          box-sizing: border-box; 
@@ -378,3 +390,7 @@ input .password{
    .btnAddParcelRow{
        border-radius: 50%;
    }
+   .btnCancelParcelRow{
+        padding-left: 10px;
+        border-radius: 50%;
+    }
