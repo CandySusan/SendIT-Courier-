@@ -234,6 +234,11 @@ p.courier{
 		.parcelRow .cell.btn { 
             width: 100px; 
         }
+        .parcelRow activeRow animfast{
+            margin-left: 58px;
+            margin-right: 75px;
+    
+        }
 	.indexBubble {
          margin: 9px 0 0 9px; 
          width: 36px; 
@@ -312,8 +317,8 @@ p.courier{
         padding: 8px; 
         box-sizing: border-box; 
         -moz-box-sizing: border-box;
-        padding-left: 50px; 
-        padding-right: 50px;
+        padding-left: 80px;
+        padding-right: 210px;
         padding-top: 20px;
         margin-left: 85px;
     }
@@ -378,6 +383,7 @@ p.courier{
 
     .parcelPanelBottom{
         padding-left: 200px;
+        margin-left: 200px;
     }
     .follow{
         text-align: right;
@@ -397,3 +403,12 @@ p.courier{
         margin-right: 74px;
 
     }
+    .style{
+        overflow:hidden; 
+        margin-left:10px;
+    }
+     .row{
+        margin-left: 200px;
+     }
+
+    

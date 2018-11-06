@@ -18,7 +18,7 @@
                 <div id="nliPanel">
                     <div class="login"><b>Logged In</b></div>
 
-                    <div class="button">
+                    <div class="style">
                         <button><a href="../UI/home.html">LogOut</a></button>
 
 
@@ -32,11 +32,12 @@
     </header>
     <div class="container">
         <ul class="topnav">
-            <li><a class="active" href="../UI/user_profile.html">User Profile</a></li>
-            <li><a href="../UI/user.html">Quote</a></li>
-            <li><a href="../UI/home.html">Home</a></li>
-            <li><a href="../UI/admin.html">Admin</a></li>
-            <li class="right"><a href="../UI/home.html ">Contact</a></li>
+                <li><a class="active" href="../UI/user_profile.html">User Profile</a></li>
+                <li><a href="../UI/home.html">Home</a></li>
+                <li><a href="../UI/user.html">Quote</a></li>
+                <li><a href="../UI/admin.html">Admin</a></li>
+                <li class="right"><a href="../UI/home">Contact</a></li>
+
         </ul>
     </div>
 
@@ -61,16 +62,18 @@
                     <td>
                         1
                     </td>
-                    <td>
-                        <input type="button" value="Order Details" onclick="ViewOrder('Kamokya','Ntinda',15000,12/10/18,CreditCard)" />
+                    <td><a href="../UI/view.html">
+                            <input type="button" value="Order Details" onclick="ViewOrder('Kamokya','Ntinda',15000,12/10/18,CreditCard)" />
+                        </a>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         2
                     </td>
-                    <td>
-                        <input type="button" value="Order Details" onclick="ViewOrder('Entebbe','Namuwongo',20000,12/10/18,VisaCard)" />
+                    <td><a href="../UI/view.html">
+                            <input type="button" value="Order Details" onclick="ViewOrder('Entebbe','Namuwongo',20000,12/10/18,VisaCard)" />
+                        </a>
                     </td>
                 </tr>
                 <tr>
@@ -78,7 +81,9 @@
                         3
                     </td>
                     <td>
-                        <input type="button" value="Order Details" onclick="ViewOrder('Ntinda','Namuwongo',25000,1/11/18,MobileMoney)" />
+                        <a href="../UI/view.html">
+                            <input type="button" value="Order Details" onclick="ViewOrder('Ntinda','Namuwongo',25000,1/11/18,MobileMoney)" />
+                        </a>
                     </td>
                 </tr>
             </tbody>
@@ -100,10 +105,13 @@
                                 Price</b>
                         </td>
                         <td><b>
-                                PickupDate</b>
+                                PaymentMode </b>
                         </td>
                         <td><b>
-                                PaymentMode</b>
+                                DeliveryDate</b>
+                        </td>
+                        <td><b>
+                                Status</b>
                         </td>
                     </tr>
                 </thead>
@@ -112,7 +120,7 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td colspan="5" align="right" id="order_total">
+                        <td colspan="6" align="right" id="order_total">
 
                         </td>
                     </tr>
@@ -122,6 +130,7 @@
     </td>
     </tr>
     </table>
+    </div>
 
     <form action="" method="get" class="form">
         View Parcel Delivery:<br>
@@ -138,7 +147,7 @@
 
 
 
-    <div id="footer">
+    <footer id="footer">
 
         <div class="col">
             <h3>About Us</h3>
@@ -190,7 +199,7 @@
         </a>
 
 
-
+    </footer>
 </body>
 
 </html>

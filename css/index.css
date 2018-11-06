@@ -52,6 +52,7 @@ p.courier{
      margin: 0 auto; 
      width: 400px; 
      border: 1px solid #ccc; 
+     margin-top: 20px;
     }
 	fieldset { 
         margin: 0; 
@@ -78,7 +79,7 @@ p.courier{
          width: 100%; 
          background: #7fb835; 
          color: #fff; color: #fff; 
-         text-align: left; 
+         text-align: center; 
          padding: 20px; 
          box-sizing: border-box; 
          -moz-box-sizing: border-box; 
