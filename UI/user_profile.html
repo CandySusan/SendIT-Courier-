@@ -62,7 +62,7 @@
                         1
                     </td>
                     <td>
-                        <input type="button" value="Order Details" onclick="ViewOrder('Kamokya','Ntinda',15000)" />
+                        <input type="button" value="Order Details" onclick="ViewOrder('Kamokya','Ntinda',15000,12/10/18,CreditCard)" />
                     </td>
                 </tr>
                 <tr>
@@ -70,7 +70,7 @@
                         2
                     </td>
                     <td>
-                        <input type="button" value="Order Details" onclick="ViewOrder('Entebbe','Namuwongo',20000)" />
+                        <input type="button" value="Order Details" onclick="ViewOrder('Entebbe','Namuwongo',20000,12/10/18,VisaCard)" />
                     </td>
                 </tr>
                 <tr>
@@ -78,7 +78,7 @@
                         3
                     </td>
                     <td>
-                        <input type="button" value="Order Details" onclick="ViewOrder('Ntinda','Namuwongo',25000)" />
+                        <input type="button" value="Order Details" onclick="ViewOrder('Ntinda','Namuwongo',25000,1/11/18,MobileMoney)" />
                     </td>
                 </tr>
             </tbody>
@@ -95,8 +95,15 @@
                         <td><b>
                                 Destination</b>
                         </td>
+
                         <td><b>
                                 Price</b>
+                        </td>
+                        <td><b>
+                                PickupDate</b>
+                        </td>
+                        <td><b>
+                                PaymentMode</b>
                         </td>
                     </tr>
                 </thead>
@@ -105,7 +112,7 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td colspan="3" align="right" id="order_total">
+                        <td colspan="5" align="right" id="order_total">
 
                         </td>
                     </tr>

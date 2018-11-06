@@ -318,6 +318,7 @@ input .password{
         -moz-box-sizing: border-box;
         padding-left: 50px; 
         padding-right: 50px;
+        padding-top: 20px;
     }
     #footer .social-facebook {
          position: absolute; 
