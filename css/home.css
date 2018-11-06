@@ -41,26 +41,14 @@ p.courier{
     color: maroon;
 
 }
-#nliPanel{
-    float: right;
-    padding-top: 15px;
-}
-#loginPanel{
-    float: right;
-    padding-bottom: 50px;
-    padding-right: 100px;
-   
-}
+
 
 .container{
     padding-top: 150px;
     padding-left: 100px;
     padding-right: 30px;
 }
-.smallLink {
-float: right;
 
-}
 
 .button{
     border-radius: 100%;
@@ -72,19 +60,6 @@ float: right;
     margin-top: 10px;
     margin-right: 5px;
 }
-
-.login{
-    float: left;
-    padding-bottom: 5px;
-}
-
-
-
-input .password{
-    padding-right: 5px;
-    float: right;
-}
-
 
 .content-body {
      margin: 0 auto; 
