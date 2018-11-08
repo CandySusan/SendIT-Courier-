@@ -2,6 +2,11 @@ body {
     margin: 0;
     background-color: whitesmoke;
 }
+@media screen and (max-width: 600px){
+    body{
+        background-color: lightgreen;
+    }
+}
 
 ul.topnav {
     list-style-type: none;
