@@ -20,35 +20,73 @@
         <div class="container">
             <ul class="topnav">
                 <li><a class="active" href="../UI/admin.html">Admin</a></li>
-                <li class="right"><a href="../UI/home.html">Home</a></li>
+                <li ><a href="../UI/home.html">Home</a></li>
+                <li ><a href="../UI/login.html">Login</a></li>
+                <li ><a href="../UI/home.html">Contact</a></li>
+                <li class="right"><a href="../UI/user_profile.html">User Profile</a></li>
             </ul>
         </div>
 
     </header>
 
-    
+    <p><h1>
+        <center>User Quote</center>
+    </h1></p>
 
     <nav>
         <form action="" class="form"><b>
                 
-                Date:<br>
-                <input type="text" name="dd/mm/yr" size="60" autofocus>
+                Date:                                  12/12/18<br>
+                <!-- <input type="text" name="dd/mm/yr" size="60" autofocus> -->
                     <br><b>
-                    PickUp Location:<br>
-                    <input type="text" name="Pickup location" size="60"><br>
-                    Destination:<br><b>
-                        <input type="text" name="Destinatiion" size="60"><br>
-                        Sender's Name:<br><b>
-                            <input type="text" name="Sender's Name" name="In transit" size="60"><br>
-                            Sender's Contact:<br><b>
-                                    <input type="text" name="Sender's Contact" name="In transit" size="60"><br>
-                            Reciever's Name:<br><b>
-                                <input type="text" name="Reciever's Name" size="60"><br>
-                                Receiver's Contact:<br><b>
-                                    <input type="text" name="Receiver's Contact" name="In transit" size="60"><br>
-                                    Weight:<br><b>
-                                            <input type="text" name="Weight" name="In transit" size="60"><br>
-                                <input type="submit" value="Notify" class="submit">
+                    PickUp Location:                    Ntindaa<br>
+                    <select id="ddToLocation">
+                            <option value="144"></option>
+                            <option value="144">Kamokya shs.12000</option>
+                            <option value="224">Ntinda shs.15000</option>
+                            <option value="136">Entabbe shs.20000</option>
+                            <option value="054">Kololo shs.25000</option>
+                            <option disabled="disabled" value="016">----------------</option>
+                            <option value="157">Namuwongo shs.30000</option>
+                        </select>
+                    <!-- <input type="text" name="Pickup location" size="60"><br> -->
+                    <br>
+                    Destination:                         Entebbe<br><b>
+
+                            <div class="Location"><select id="ddFromLocation">
+                                    <option value="144"></option>
+                                    <option value="144">Kamokya</option>
+                                    <option value="224">Ntinda</option>
+                                    <option value="136">Entabbe</option>
+                                    <option value="054">Kololo</option>
+                                    <option disabled="disabled" value="016">----------------</option>
+                                    <option value="157">Namuwongo</option>
+                                </select>
+                            </div>
+                        <!-- <input type="text" name="Destinatiion" size="60"><br> -->
+                        <br>
+                        Sender's Name:                   Picky Kimani<br><b>
+                            <!-- <input type="text" name="Sender's Name" name="In transit" size="60"><br> -->
+                            <br>
+                            Sender's Contact:             074619520<br><b>
+                                    <!-- <input type="text" name="Sender's Contact" name="In transit" size="60"><br> -->
+                                    <br>
+                            Reciever's Name:              Mwamba Brian<br><b>
+                                <!-- <input type="text" name="Reciever's Name" size="60"> -->
+                                <br>
+                                Receiver's Contact:        0782846195<br><b>
+                                    <!-- <input type="text" name="Receiver's Contact" name="In transit" size="60"> -->
+                                    <br>
+                                    Weight:                 60 kg`<br><b>
+                                            <!-- <input type="text" name="Weight" name="In transit" size="60"> -->
+                                            <br><form action="" method="get" class="form">
+                                                   Edit Delivery Status:<br>
+                                                   <input list="deliveries" name="deliveryr">
+                                                   <datalist id="deliveries">
+                                                       <option value="Delivered">
+                                                       <option value="In Transit">
+                                                       <option value="Cancelled">
+                                                   </datalist>
                                 <button> <a href ="../UI/login.html">LogOut</a></button>
         </form>
     </nav>
