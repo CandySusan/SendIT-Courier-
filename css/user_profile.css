@@ -1,0 +1,409 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.topnav li a.active {
+    background-color: #4CAF50;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+p.courier{
+    float: left;
+    padding-left: 100px;
+    font-display: fixed;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: maroon;
+
+}
+#nliPanel{
+    float: right;
+    padding-top: 15px;
+}
+#loginPanel{
+    float: right;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 1000px;
+}
+
+.container{
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 140px;
+}
+
+.style{
+    overflow:hidden; 
+    margin-left:10px;
+}
+
+#nliPanel{
+    overflow: hidden;
+    float: right;
+    margin-top: 90px;
+    margin-left: 48px;
+}
+.button{
+    
+    color:green;
+    width: 26px;
+    height: 26px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.login{
+    float: left;
+    padding-bottom: 5px;
+    color: maroon;
+    margin-right: 10px;
+}
+
+
+        
+#footer { 
+    position: relative; 
+    width: 1220px; 
+    margin: 0 auto; 
+    background-color: #4793ba; 
+    min-height: 140px; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    padding-left: 60px; 
+    padding-right: 50px;
+    margin-left: 85px;
+    
+}
+#footer .social-facebook {
+     position: absolute; 
+     top: -13px; 
+     right: 130px; 
+     width: 82px; 
+     height: 52px; 
+     
+     cursor: pointer; }
+#footer .social-twitter { 
+    position: absolute; 
+    top: -13px; 
+    right: 50px; 
+    width: 82px; 
+    height: 82px; 
+    
+    cursor: pointer; 
+}
+
+#msg{
+    color: red;
+}
+
+#footer a { 
+    color: #fff; 
+    text-decoration: none; 
+}
+#footer .col a { 
+    font-size: 16px;
+ }
+    #footer a:hover { 
+        text-decoration: underline; 
+    }
+#footer .base-text {
+     clear: left; 
+     font-size: 12px!important; 
+     color: #fff; 
+     text-align: right;
+     padding-top:8px; 
+    }
+#footer .col { 
+    width: auto;
+    float: left;
+    padding-right:60px; 
+}
+    #footer .col h3 { 
+        font-size: 12px; 
+        text-decoration: underline; 
+        color: #fff; 
+        font-size: 16px; 
+        margin: 0; 
+        padding: 0 0 5px 0; 
+    }
+    #footer .col ul { 
+        margin: 0; 
+        padding: 0; 
+        list-style: none; 
+    }
+        #footer .col ul > li { 
+            margin: 0; 
+            padding: 0; 
+        }
+
+
+
+.parcelPanelBottom{
+    padding-left: 200px;
+}
+.follow{
+    text-align: right;
+    color: white;
+    padding-left: 15px;
+}
+
+#nliPanel{
+    float: right;
+    padding-top: 15px;
+}
+#loginPanel{
+    float: right;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 1000px;
+}
+
+.container{
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 140px;
+}
+
+
+.button{
+    
+    color:green;
+    width: 26px;
+    height: 26px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.login{
+    float: left;
+    padding-bottom: 5px;
+    color: maroon;
+}
+
+
+
+input .password{
+    padding-right: 5px;
+    float: right;
+}
+        
+#footer { 
+    position: relative; 
+    width: 1110px; 
+    margin: 0 auto; 
+    background-color: #4793ba; 
+    min-height: 140px; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    padding-left: 80px;
+    padding-right: 210px;
+    margin-left: 95px;
+    
+}
+#footer .social-facebook {
+     position: absolute; 
+     top: -13px; 
+     right: 130px; 
+     width: 82px; 
+     height: 52px; 
+     
+     cursor: pointer; }
+#footer .social-twitter { 
+    position: absolute; 
+    top: -13px; 
+    right: 50px; 
+    width: 82px; 
+    height: 82px; 
+    
+    cursor: pointer; 
+}
+
+#msg{
+    color: red;
+}
+
+#footer a { 
+    color: #fff; 
+    text-decoration: none; 
+}
+#footer .col a { 
+    font-size: 16px;
+ }
+    #footer a:hover { 
+        text-decoration: underline; 
+    }
+#footer .base-text {
+     clear: left; 
+     font-size: 12px!important; 
+     color: #fff; 
+     text-align: right;
+     padding-top:8px; 
+    }
+#footer .col { 
+    width: auto;
+    float: left;
+    padding-right:60px; 
+}
+    #footer .col h3 { 
+        font-size: 12px; 
+        text-decoration: underline; 
+        color: #fff; 
+        font-size: 16px; 
+        margin: 0; 
+        padding: 0 0 5px 0; 
+    }
+    #footer .col ul { 
+        margin: 0; 
+        padding: 0; 
+        list-style: none; 
+    }
+        #footer .col ul > li { 
+            margin: 0; 
+            padding: 0; 
+        }
+
+
+
+.parcelPanelBottom{
+    padding-left: 200px;
+}
+.follow{
+    text-align: right;
+    color: white;
+    padding-left: 15px;
+}
+
+#loginPanel{
+    position:absolute;
+    top:8px;left:-60px;
+}
+
+
+table {
+    border:0;
+    width  :100%;
+    padding :4px;
+    color:maroon;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+    border: 5px solid white;
+    background-color: #4CAF50;
+}
+td{
+    
+    width: 50%;
+    vertical-align: top;
+    padding: 5px;
+    
+    border: 1px;
+    column-span: 3px;
+    border: 1px solid black;
+}
+tr:hover{
+    
+    background-color:#f5f5f5;
+}
+.content{
+    margin-left: 95px;
+    margin-right: 135px;
+    overflow: hidden;
+    
+}
+.form{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 500px;
+}
+.pending{
+    margin-left: 100px;
+    color: maroon;
+    font:bold;
+}
+
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    
+    width: 100%; 
+    
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    
+    
+}
+.modal-content {
+    background-color: #fefefe;
+    background-size: 30px;
+    margin: 10% auto;
+    padding: 40px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#myBtn1{
+    margin-left: 50%;
+}

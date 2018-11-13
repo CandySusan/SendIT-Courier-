@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../SendIT- courier/css/index.css">
+    <script src="../SendIT- courier/js/index.js"></script>
+    <title>Index</title>
+</head>
+
+<body>
+    <header>
+        <p class="courier"> <big>SendIT Courier</big></p>
+    
+
+        <div class="container">
+            <ul class="topnav">
+                <li><a class="active" href="../SendIT- courier/UI/home.html">Home</a></li>
+                <li><a href="../SendIT- courier/UI/login.html"> Login</a></li>
+                <li><a href="../SendIT- courier/UI/user.html"> Quote</a></li>
+                <li><a href="../SendIT- courier/UI/admin.html">Admin</a></li>
+                <li><a href="../SendIT- courier/UI/home.html">Contact</a></li>
+                <li class="right"><a href="../SendIT- courier/UI/user_profile.html">User Profile</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <div id="reg-panel">
+        <div class="content-body">
+            <div class="reg-title">Register</div>
+            <fieldset class="register-form">
+                <label>Name:</label>
+                <input id="rg_cn" type="text" maxlength="60" class="input tb-name" />
+
+                <label>Email:</label>
+                <input id="rg_em" type="text" maxlength="50" class="input tb-email" />
+                <span id="alert"></span>
+                <label>Password:</label>
+                <input id="rg_p1" type="password" maxlength="20" class="input tb-password1" />
+
+                <label>Confirm Password:</label>
+                <input id="rg_p2" type="password" maxlength="20" class="input tb-password2" />
+
+                <label>How did you hear about us?</label>
+                <select id="rg_hh" class="dd-hh">
+                    <option value="0">Select...</option>
+                    <option>A Friend</option>
+                    <option>Google</option>
+                    <option>Email</option>
+                    <option>Facebook</option>
+                    <option>Twitter</option>
+                    <option>Other</option>
+                </select>
+            </fieldset>
+            <div class="btn-container">
+                <button type="button" id="btnRegister" class="btn-register" onclick="myFunction()">
+                    <a href="../SendIT- courier/UI/login.html">Register</a></button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

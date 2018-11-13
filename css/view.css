@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+@media screen and (max-width: 600px){
+    body{
+        background-color: lightgreen;
+    }
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.topnav li a.active {
+    background-color: #4CAF50;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+p.courier{
+    float: left;
+    padding-left: 100px;
+    font-display: fixed;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: maroon;
+    margin-left: 80px;
+    
+
+}
+.container{
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 30px;
+    margin-right: 100px;
+    margin-left: 90px;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 210px;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+th {
+    height: 50px;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+#footer { 
+    position: relative; 
+    
+    margin: 0 auto; 
+    background-color: #4793ba; 
+    min-height: 140px; 
+     
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    margin-left: 175px;
+    padding-top: 20px;
+    padding-left: 100px;
+    margin-right: 130px
+    
+}
+#footer .social-facebook {
+     position: absolute; 
+     top: -13px; 
+     right: 130px; 
+     width: 82px; 
+     height: 52px; 
+     
+     cursor: pointer; }
+#footer .social-twitter { 
+    position: absolute; 
+    top: -13px; 
+    right: 50px; 
+    width: 82px; 
+    height: 82px; 
+    
+    cursor: pointer; 
+}
+
+#msg{
+    color: red;
+}
+
+#footer a { 
+    color: #fff; 
+    text-decoration: none; 
+}
+#footer .col a { 
+    font-size: 16px;
+ }
+    #footer a:hover { 
+        text-decoration: underline; 
+    }
+#footer .base-text {
+     clear: left; 
+     font-size: 12px!important; 
+     color: #fff; 
+     text-align: right;
+     padding-top:8px; 
+    }
+#footer .col { 
+    width: auto;
+    float: left;
+    padding-right:60px; 
+}
+    #footer .col h3 { 
+        font-size: 12px; 
+        text-decoration: underline; 
+        color: #fff; 
+        font-size: 16px; 
+        margin: 0; 
+        padding: 0 0 5px 0; 
+    }
+    #footer .col ul { 
+        margin: 0; 
+        padding: 0; 
+        list-style: none; 
+    }
+        #footer .col ul > li { 
+            margin: 0; 
+            padding: 0; 
+        }
+    .head{
+        color:maroon;
+        font-family: Arial, Helvetica, sans-serif;
+    }
