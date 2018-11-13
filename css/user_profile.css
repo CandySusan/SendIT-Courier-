@@ -404,3 +404,6 @@ tr:hover{
     text-decoration: none;
     cursor: pointer;
 }
+#myBtn1{
+    margin-left: 50%;
+}
