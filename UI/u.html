@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="../css/user_profile.css">
 
-    <title>User Profile</title>
+    <title>View Orders</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
                         <button><a href="../UI/home.html">LogOut</a></button>
 
 
-                        <button><a href="../UI/user_profile.html">MyOrders</a></button>
+                        <button><a href="../UI/admin.html"> View Orders</a></button>
 
                     </div>
 
@@ -32,9 +32,9 @@
     </header>
     <div class="container">
         <ul class="topnav">
-       
-            <li><a class="active" href="../UI/user_profile.html">User Profile</a></li>
-            
+
+            <li><a class="active" href="../UI/u.html">View Orders</a></li>
+
             <li class="right"><a href="../UI/view.html">Dashboard</a></li>
 
         </ul>
@@ -45,31 +45,26 @@
     <h1>
         <center>
 
-            <b> My Orders</b></center>
+            <b>View Orders</b></center>
     </h1>
 
-
-    <p class="pending"> Pending Deliveries: 3 <br><br>
-        Delivered Orders : 2<br><br>
-        Cancelled Deliveries: 0
-    </p>
 
     <div class="content">
         <table>
             <tr>
                 <td><b>
-                        Order Number</b>
+                        Deliveries</b>
                 </td>
             </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>
-                        1
+                        Delivered
                     </td>
                     <td>
-                        <button id="myBtn">View Order</button>
-                        <div id="myModal" class="modal"> 
+                        <button id="myBtn">View Delivered</button>
+                        <div id="myModal" class="modal">
                             <div class="modal-content">
                                 <span class="close">&times;</span>
                                 <p>
@@ -97,13 +92,34 @@
                                                     <td>0703248360</td>
                                                     <td>60kg</td>
                                                 </tr>
+                                                <tr>
+                                                    <td>11/10/18</td>
+                                                    <td>Ntinda</td>
+                                                    <td>Entebbe</td>
+                                                    <td>Picky Kimani</td>
+                                                    <td>0774619520</td>
+                                                    <td>Mwamba Brian</td>
+                                                    <td>0703248360</td>
+                                                    <td>60kg</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>11/10/18</td>
+                                                    <td>Ntinda</td>
+                                                    <td>Entebbe</td>
+                                                    <td>Picky Kimani</td>
+                                                    <td>0774619520</td>
+                                                    <td>Mwamba Brian</td>
+                                                    <td>0703248360</td>
+                                                    <td>60kg</td>
+                                                </tr>
 
 
                                             </table>
-                                    
+
                                 </p>
-                                <button id="myBtn1"> <a href="../UI/user.html">Cancel Order</a></button><br>
-                                <button id="myBtn1"> <a href="../UI/admin.html">Edit Destination</a></button>
+                                <button id="myBtn1"> <a href="../UI/admin.html">Edit Status</a></button><br>
+
+                                <button id="myBtn1"> <a href="../UI/admin.html">Edit Location</a></button>
                             </div>
 
                         </div><br>
@@ -113,11 +129,11 @@
                 <tr>
 
                     <td>
-                        2
+                        Cancelled
                     </td>
 
                     <td>
-                        <button id="myBtn">View Order</button>
+                        <button id="myBtn">View Cancelled</button>
                         <div id="myModal" class="modal">
                             <div class="modal-content">
                                 <span class="close">&times;</span>
@@ -134,7 +150,8 @@
                                                     <th><b>Receiver's Name</b></th>
                                                     <th><b>Receiver's Contact</b></th>
                                                     <th><b>Weight</b></th>
-
+                                                    <th><b><button>Edit Location</button></b></th>
+                                                    <th><b><button>Edit status</button></b></th>
                                                 </tr>
                                                 <tr>
                                                     <td>12/10/18</td>
@@ -157,141 +174,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr>
-                    <td>
-                        3
-                    </td>
-                    <td>
 
-                        <button id="myBtn">View Order</button>
-                        <div id="myModal" class="modal">
-                            <div class="modal-content">
-                                <span class="close">&times;</span>
-                                <p>
-
-
-                                    <table>
-                                        <tr>
-                                            <table>
-                                                <tr>
-                                                    <th><b>Delivery Date</b></th>
-                                                    <th><b>PickUp Location</b></th>
-                                                    <th><b>Destination</b></th>
-                                                    <th><b>Sender's Name</b></th>
-                                                    <th><b>Snders's Contact</b></th>
-                                                    <th><b>Receiver's Name</b></th>
-                                                    <th><b>Receiver's Contact</b></th>
-                                                    <th><b>Weight</b></th>
-
-                                                </tr>
-                                                <tr>
-                                                    <td>12/10/18</td>
-                                                    <td>Ntinda</td>
-                                                    <td>Entebbe</td>
-                                                    <td>Picky Kimani</td>
-                                                    <td>0774619520</td>
-                                                    <td>Mwamba Brian</td>
-                                                    <td>0703248360</td>
-                                                    <td>60kg</td>
-                                                </tr>
-
-
-                                            </table>
-                                </p>
-                            </div>
-
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        4
-                    </td>
-                    <td>
-
-                        <button id="myBtn">View Order</button>
-                        <div id="myModal" class="modal">
-                            <div class="modal-content">
-                                <span class="close">&times;</span>
-                                <p>
-                                    <table>
-                                        <tr>
-                                            <table>
-                                                <tr>
-                                                    <th><b>Delivery Date</b></th>
-                                                    <th><b>PickUp Location</b></th>
-                                                    <th><b>Destination</b></th>
-                                                    <th><b>Sender's Name</b></th>
-                                                    <th><b>Snders's Contact</b></th>
-                                                    <th><b>Receiver's Name</b></th>
-                                                    <th><b>Receiver's Contact</b></th>
-                                                    <th><b>Weight</b></th>
-
-                                                </tr>
-                                                <tr>
-                                                    <td>12/10/18</td>
-                                                    <td>Ntinda</td>
-                                                    <td>Entebbe</td>
-                                                    <td>Picky Kimani</td>
-                                                    <td>0774619520</td>
-                                                    <td>Mwamba Brian</td>
-                                                    <td>0703248360</td>
-                                                    <td>60kg</td>
-                                                </tr>
-
-
-                                            </table>
-                                </p>
-                            </div>
-
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        5
-                    </td>
-                    <td>
-                        <button id="myBtn">View Order</button>
-                        <div id="myModal" class="modal">
-                            <div class="modal-content">
-                                <span class="close">&times;</span>
-                                <p>
-                                    <table>
-                                        <tr>
-                                            <table>
-                                                <tr>
-                                                    <th><b>Delivery Date</b></th>
-                                                    <th><b>PickUp Location</b></th>
-                                                    <th><b>Destination</b></th>
-                                                    <th><b>Sender's Name</b></th>
-                                                    <th><b>Senders's Contact</b></th>
-                                                    <th><b>Receiver's Name</b></th>
-                                                    <th><b>Receiver's Contact</b></th>
-                                                    <th><b>Weight</b></th>
-
-                                                </tr>
-                                                <tr>
-                                                    <td>12/10/18</td>
-                                                    <td>Ntinda</td>
-                                                    <td>Entebbe</td>
-                                                    <td>Picky Kimani</td>
-                                                    <td>0774619520</td>
-                                                    <td>Mwamba Brian</td>
-                                                    <td>0703248360</td>
-                                                    <td>60kg</td>
-                                                </tr>
-
-
-                                            </table>
-                                </p>
-                            </div>
-
-                        </div>
-
-
-                    </td>
-                </tr>
             </tbody>
 
         </table>
@@ -315,14 +198,14 @@
     </div>
 
     <form action="" method="get" class="form">
-        View Parcel Delivery:<br>
+        Parcel Delivery Status:<br>
         <input list="deliveries" name="deliveryr">
         <datalist id="deliveries">
-            <option value="Order Number 1(Delivered)">
-            <option value="Order Number 2(In Transit)">
-            <option value="Order Number 3(Delivered)">
-            <option value="Order Number 5(In Transit)">
-            <option value="Order Number 4(Cancelled)">
+            <option value="10 Delivered">
+            <option value="22 In Transit">
+            <option value="13 Delivered To wrong Destination">
+            <option value="5 In Transit to wrong Destination">
+            <option value="3 Cancelled ">
         </datalist>
         <button type="button"><a href="../UI/view.html">Check</a></button>
     </form>
@@ -384,11 +267,6 @@
     </footer>
 
     <script src="../js/user_profile.js"></script>
-
-
-
-
-
 
 </body>
 
